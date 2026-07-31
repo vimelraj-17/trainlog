@@ -1,0 +1,42 @@
+trainlog/
+├── index.html
+├── manifest.webmanifest
+├── sw.js
+├── README.md
+├── TESTING.md
+│
+├── assets/
+│   ├── css/
+│   │   └── trainlog.css
+│   │
+│   └── js/
+│       ├── app.js
+│       │
+│       ├── core/
+│       │   ├── constants.js
+│       │   ├── helpers.js
+│       │   ├── storage.js
+│       │   └── state.js
+│       │
+│       ├── ui/
+│       │   ├── icons.js
+│       │   ├── components.js
+│       │   ├── chart.js
+│       │   └── events.js
+│       │
+│       ├── features/
+│       │   ├── home.js
+│       │   ├── workout-log.js
+│       │   ├── calendar.js
+│       │   ├── records.js
+│       │   ├── body-tracking.js
+│       │   ├── performance.js
+│       │   ├── profile.js
+│       │   └── calendar-transfer.js
+│       │
+│       └── pwa/
+│           └── register-service-worker.js
+│
+└── .github/
+    └── workflows/
+        └── static.yml
